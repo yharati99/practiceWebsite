@@ -1,33 +1,22 @@
+/* Global Styles */
 body {
-    display: flex;
-    font-family: 'Roboto', 'sans-serif';
-    flex-direction: column;
-    box-sizing: border-box;
-    height: 1900px;
     margin: 0;
-}
-
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 190px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    margin: 0;
-    padding: 0;
     background-color: #1F2937;
-    height: 550px;
+    padding: 16px 0;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
-    margin-bottom: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 .header-logo {
@@ -38,23 +27,75 @@ header {
 
 .header-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 24px;
+}
+
+.header-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px 16px;
+}
+
+.hero-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    width: 450px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 .hero-subtext {
-    margin-top: 5;
-    width: 450px;
     font-size: 18px;
-    color: #E5E7EB;
+    margin-bottom: 24px;
+}
+
+.image-placeholder img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.button {
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1b6ef4;
+}
+
+/* Information Section */
+.information {
+    padding: 40px 16px;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 16px;
 }
