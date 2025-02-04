@@ -7,28 +7,54 @@ body {
     margin: 0;
 }
 
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 190px;
+}
+
 header {
     display: flex;
     margin: 0;
     padding: 0;
-    justify-content: flex-start;
     background-color: #1F2937;
     height: 550px;
+}
 
-    .header-container {
-        display: flex;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+}
 
-        .header-logo {
-            display: flex;
-            font-size: 24px;
-            color: #F9FAF8;
-        }
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
 
-        .header-links {
-            display: flex;
-            gap: 1.5rem;
-            font-size: 18px;
-            color: #E5E7EB;
-        }
-    }
+.header-links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 450px;
+    margin-bottom: 0;
+}
+
+.hero-subtext {
+    margin-top: 5;
+    width: 450px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
