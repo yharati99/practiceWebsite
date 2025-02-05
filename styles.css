@@ -1,8 +1,7 @@
-/* Global Styles */
+
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 header {
@@ -13,8 +12,7 @@ header {
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
+    max-width: 70%;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -38,17 +36,19 @@ header {
 /* Hero Section */
 .hero-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 40px 16px;
 }
 
 .hero-container {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 70%;
+}
+
+.hero-text {
+    max-width: 450px;
 }
 
 .hero-main-text {
