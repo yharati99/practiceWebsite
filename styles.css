@@ -152,4 +152,12 @@ header {
     color: #1F2937;
     max-width: 55%;
     align-self: center;
+    margin-bottom: 0px;
+}
+
+.citation {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 400px;
 }
